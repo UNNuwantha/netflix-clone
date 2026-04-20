@@ -11,7 +11,12 @@
 
 A modern, responsive Netflix clone built with React and Vite, featuring Firebase authentication, dynamic content rendering, and a sleek user interface.
 
-
+![image alt](https://github.com/UNNuwantha/netflix-clone/blob/master/src/assets/img1.png?raw=true)
+![image alt](https://github.com/UNNuwantha/netflix-clone/blob/master/src/assets/img2.png?raw=true)
+![image alt](https://github.com/UNNuwantha/netflix-clone/blob/master/src/assets/img3.png?raw=true)
+![image alt](https://github.com/UNNuwantha/netflix-clone/blob/master/src/assets/img4.png?raw=true)
+![image alt](https://github.com/UNNuwantha/netflix-clone/blob/master/src/assets/img5.png?raw=true)
+![image alt](https://github.com/UNNuwantha/netflix-clone/blob/master/src/assets/img6.png?raw=true)
 
 </div>
 
