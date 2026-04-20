@@ -1,6 +1,7 @@
 import { initializeApp } from "firebase/app";
 import { createUserWithEmailAndPassword, getAuth, signInWithEmailAndPassword, signOut } from "firebase/auth/cordova";
 import { addDoc, collection, getFirestore } from "firebase/firestore/lite";
+import { toast } from "react-toastify";
 
 
 const firebaseConfig = {
@@ -29,21 +30,21 @@ const signUp = async (name, email, password) => {
         });
     } catch (error) {
         console.log(error);
-        alert(error);
+        toast.error(error.code.split('/')[1].split('-').join(" "));
     }
 }
 
-const login = async (email, password)=>{
+const login = async (email, password) => {
     try {
         await signInWithEmailAndPassword(auth, email, password);
     } catch (error) {
         console.log(error);
-        alert(error);
+        toast.error(error.code.split('/')[1].split('-').join(" "));
     }
 }
 
-const logout = ()=>{
+const logout = () => {
     signOut(auth);
 }
 
-export {auth, db, login, signUp, logout};
+export { auth, db, login, signUp, logout };
