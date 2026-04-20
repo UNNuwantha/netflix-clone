@@ -11,7 +11,7 @@
 
 A modern, responsive Netflix clone built with React and Vite, featuring Firebase authentication, dynamic content rendering, and a sleek user interface.
 
-[🚀 Live Demo](#live-demo) • [📸 Screenshots](#screenshots) • [🛠️ Tech Stack](#tech-stack) • [📖 Installation](#installation)
+
 
 </div>
 
